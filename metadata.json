@@ -1,0 +1,6 @@
+{
+  "name": "SafeGuard AI",
+  "description": "AI-Powered Women Safety System with SOS tracking, voice emergency trigger, shake detection, activity analysis, and safety chatbot.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "fullName": "Admin Officer",
+      "email": "admin@safeguard.ai",
+      "phone": "+15550199",
+      "password": "admin",
+      "age": 32,
+      "gender": "Female",
+      "address": "100 Security HQ, Safe City",
+      "bloodGroup": "O+",
+      "medicalDetails": "None",
+      "emergencyContacts": [],
+      "role": "admin",
+      "faceRegistered": false
+    },
+    {
+      "id": "user-1",
+      "fullName": "Sanjana Rajasekaran",
+      "email": "sanjara@safeguard.ai",
+      "phone": "+15550177",
+      "password": "user123",
+      "age": 24,
+      "gender": "Female",
+      "address": "Downtown Residence, Apt 4B",
+      "bloodGroup": "A+",
+      "medicalDetails": "Asthma inhaler in purse",
+      "emergencyContacts": [
+        {
+          "name": "Mom",
+          "phone": "+15551234",
+          "email": "mom@family.com",
+          "relationship": "Mother"
+        },
+        {
+          "name": "Dad",
+          "phone": "+15555678",
+          "email": "dad@family.com",
+          "relationship": "Father"
+        }
+      ],
+      "role": "user",
+      "faceRegistered": true,
+      "faceImage": "simulated_face_id_token"
+    },
+    {
+      "id": "user-1783187991985",
+      "fullName": "sanjana",
+      "email": "sanjanarajasekaran7@gmail.com",
+      "phone": "7094668749",
+      "password": "sanjana",
+      "age": 21,
+      "gender": "Female",
+      "address": "",
+      "bloodGroup": "B+",
+      "medicalDetails": "",
+      "emergencyContacts": [],
+      "role": "user",
+      "faceRegistered": false
+    }
+  ],
+  "emergencies": [
+    {
+      "id": "sos-1783188087846",
+      "userId": "user-1783187991985",
+      "userName": "sanjana",
+      "userPhone": "7094668749",
+      "timestamp": "2026-07-04T18:01:27.846Z",
+      "location": {
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "address": "Near Latitude 37.7749, Longitude -122.4194, Safe City Area"
+      },
+      "status": "active",
+      "emotionResult": "Distress Manual Trigger",
+      "activityResult": "Standard vertical alert",
+      "notes": "Triggered via Manual Red SOS Button.",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "videoUrl": "https://assets.mixkit.co/videos/preview/mixkit-security-camera-recording-outdoor-facility-43339-large.mp4"
+    },
+    {
+      "id": "sos-1783188041991",
+      "userId": "user-1783187991985",
+      "userName": "sanjana",
+      "userPhone": "7094668749",
+      "timestamp": "2026-07-04T18:00:41.991Z",
+      "location": {
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "address": "Near Latitude 37.7749, Longitude -122.4194, Safe City Area"
+      },
+      "status": "active",
+      "emotionResult": "Distress Manual Trigger",
+      "activityResult": "Standard vertical alert",
+      "notes": "Triggered via Manual Button.",
+      "audioUrl": "",
+      "videoUrl": ""
+    },
+    {
+      "id": "sos-past-1",
+      "userId": "user-1",
+      "userName": "Sanjana Rajasekaran",
+      "userPhone": "+15550177",
+      "timestamp": "2026-07-03T17:52:39.777Z",
+      "location": {
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "address": "Near 120 Market St, San Francisco, CA"
+      },
+      "status": "resolved",
+      "resolvedAt": "2026-07-03T18:22:39.778Z",
+      "resolvedNotes": "Police arrived on scene. User escorted home safely.",
+      "notes": "Voice activation triggered - Loud scream detected.",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "videoUrl": "",
+      "emotionResult": "Panic (92%)"
+    },
+    {
+      "id": "sos-past-2",
+      "userId": "user-1",
+      "userName": "Sanjana Rajasekaran",
+      "userPhone": "+15550177",
+      "timestamp": "2026-07-04T12:52:39.778Z",
+      "location": {
+        "lat": 37.7833,
+        "lng": -122.4167,
+        "address": "Golden Gate Ave, San Francisco, CA"
+      },
+      "status": "active",
+      "notes": "Manual SOS Button pressed.",
+      "videoUrl": "",
+      "emotionResult": "Fear (88%)",
+      "activityResult": "Falling Detected"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1783188087846",
+      "userId": "user-1783187991985",
+      "title": "🚨 SOS RED ALERT",
+      "body": "Emergency active for sanjana (7094668749) triggered by Manual Red SOS Button. Address: Near Latitude 37.7749, Longitude -122.4194, Safe City Area",
+      "timestamp": "2026-07-04T18:01:27.846Z",
+      "type": "sos",
+      "read": false
+    },
+    {
+      "id": "notif-1783188041991",
+      "userId": "user-1783187991985",
+      "title": "🚨 SOS RED ALERT",
+      "body": "Emergency active for sanjana (7094668749) triggered by Manual Button. Address: Near Latitude 37.7749, Longitude -122.4194, Safe City Area",
+      "timestamp": "2026-07-04T18:00:41.991Z",
+      "type": "sos",
+      "read": false
+    },
+    {
+      "id": "notif-1",
+      "title": "Active Alert",
+      "body": "SOS Alert is currently active for Sanjana Rajasekaran.",
+      "timestamp": "2026-07-04T17:52:39.778Z",
+      "type": "sos",
+      "read": false
+    },
+    {
+      "id": "notif-2",
+      "title": "System Update",
+      "body": "SafeGuard AI v2.0 successfully active. Real-time protection is online.",
+      "timestamp": "2026-07-04T17:52:39.778Z",
+      "type": "info",
+      "read": true
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act-1783187991985",
+      "userId": "user-1783187991985",
+      "timestamp": "2026-07-04T17:59:51.985Z",
+      "action": "Registration",
+      "details": "New user registered account successfully."
+    },
+    {
+      "id": "act-1783188034793",
+      "userId": "user-1783187991985",
+      "timestamp": "2026-07-04T18:00:34.793Z",
+      "action": "Login",
+      "details": "User logged in successfully via Credentials."
+    },
+    {
+      "id": "act-1783188041992",
+      "userId": "user-1783187991985",
+      "timestamp": "2026-07-04T18:00:41.992Z",
+      "action": "SOS Triggered",
+      "details": "Emergency active via Manual Button. Lat: 37.7749, Lng: -122.4194."
+    },
+    {
+      "id": "act-1783188087847",
+      "userId": "user-1783187991985",
+      "timestamp": "2026-07-04T18:01:27.847Z",
+      "action": "SOS Triggered",
+      "details": "Emergency active via Manual Red SOS Button. Lat: 37.7749, Lng: -122.4194."
+    }
+  ],
+  "settings": {
+    "voiceAlertEnabled": true,
+    "shakeSensitivity": 7,
+    "batteryOptimization": false,
+    "soundEnabled": true
+  }
+}
