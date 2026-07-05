@@ -1,4 +1,4 @@
-# 🛡️ Women Safety AI
+# 🛡️ WOMEN SAFETY DETECTOR
 
 > **An AI-powered web application designed to improve women's safety through real-time emergency assistance, live location tracking, and intelligent safety features.**
 
